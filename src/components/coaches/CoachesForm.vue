@@ -4,10 +4,10 @@
       <label for="firstname">Firstname</label>
       <input type="text" id="firstname" v-model.trim="firstName" />
     </div>
-    <!-- <div class="form-control">
+    <div class="form-control">
       <label for="lastname">Lastname</label>
       <input type="text" id="lastname" v-model.trim="lastName" />
-    </div> -->
+    </div>
     <div class="form-control">
       <label for="description">Description</label>
       <textarea id="description" rows="5" v-model.trim="description"></textarea>
